@@ -1,0 +1,27 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpringBootDataMongodbApplication<spring-boot-data-mongodb>",
+            "request": "launch",
+            "mainClass": "com.bezkoder.spring.data.mongodb.SpringBootDataMongodbApplication",
+            "projectName": "spring-boot-data-mongodb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpringBootDataMongodbApplication",
+            "request": "launch",
+            "mainClass": "com.bezkoder.spring.data.mongodb.SpringBootDataMongodbApplication"
+        }
+    ]
+}
